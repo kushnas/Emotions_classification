@@ -23,13 +23,10 @@
 
 Данные возьму с kaggle https://www.kaggle.com/datasets/nelgiriyewithana/emotions/data
 
-Буду использовать PyTorch CNN, так как это было успешно применено в этом ноутбуке https://www.kaggle.com/code/alkidiarete/emosion-cnn-roc-0-99
-и следующие модули:
-tensorflow.keras.preprocessing.text Tokenizer
-tensorflow.keras.preprocessing.sequence pad_sequences
-tensorflow.keras.models Sequential
-tensorflow.keras.layers Embedding, Conv1D, GlobalMaxPooling1D, Dense
-tensorflow.keras.callbacks EarlyStopping
+Буду использовать как опору реализацию кода в ноутбуке https://www.kaggle.com/code/alkidiarete/emosion-cnn-roc-0-99
+Используемая в нём модель имеет следующий вид
 
+
+![загруженное (4)](https://github.com/kushnas/Emotions_classification/assets/153232117/89c09b8c-c595-4a33-966a-399ac1b9942b)
 
 
