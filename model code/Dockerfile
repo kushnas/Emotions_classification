@@ -15,7 +15,7 @@ COPY requirements.txt ./
 COPY train.py ./
 COPY model.py ./
 COPY infer.py ./
-COPY config.yaml ./
+COPY configs/config.yaml ./
 COPY tokenizer.pkl ./
 COPY clients_code.py ./
 COPY cnn_model.pth ./
