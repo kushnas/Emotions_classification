@@ -1,1 +1,21 @@
+model:
+  vocab_size: 50000
+  embedding_dim: 16
+  output_dim: 6
+  maxlen: 100
+  padding: 'post'
 
+data:
+  max_epochs: 5
+  batch_size: 64
+  test_size: 0.2
+  random_state: 42
+  accelerator: 'cpu'
+  url: 'https://drive.google.com/uc?id=1_t9kuCEx2JkIU7mQp9_nAmMl4U2qkVxd'
+
+
+paths:
+  log_dir: 'D:/lightning_logs'
+  model_path: 'cnn_model.pth'
+  tokenizer_path: 'tokenizer.pkl'
+  data_path: 'https://drive.google.com/your_data.csv'
