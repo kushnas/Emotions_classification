@@ -4,9 +4,6 @@ FROM pytorch/pytorch:latest
 
 WORKDIR /app
 
-# Установка необходимых библиотек
-RUN pip install hydra-core omegaconf mlflow gdown torch pytorch-lightning pandas scikit-learn nltk tensorflow
-
 # Скачивание данных NLTK
 RUN python -m nltk.downloader omw-1.4 stopwords wordnet punkt
 
